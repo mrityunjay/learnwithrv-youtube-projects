@@ -30,6 +30,7 @@ public class Demo {
     public void assertTitle(){
         String currentTitle = driver.getTitle();
         String expectedTitle = "RV";
+        String text="Hello";
 
         Assert.assertTrue(currentTitle.contains(expectedTitle));
     }
